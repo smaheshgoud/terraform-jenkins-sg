@@ -17,6 +17,6 @@ resource "aws_security_group" "test-vm-terraform-allow-ssh" {
   }
   tags = {
     Name = "allow-ssh-test-vm-terraform"
-    
+
   }
 }
